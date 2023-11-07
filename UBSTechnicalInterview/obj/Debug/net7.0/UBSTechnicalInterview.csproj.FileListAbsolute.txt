@@ -1,0 +1,15 @@
+/Users/davidtasty/Projects/UBSTechnicalInterview/UBSTechnicalInterview/bin/Debug/net7.0/UBSTechnicalInterview
+/Users/davidtasty/Projects/UBSTechnicalInterview/UBSTechnicalInterview/bin/Debug/net7.0/UBSTechnicalInterview.deps.json
+/Users/davidtasty/Projects/UBSTechnicalInterview/UBSTechnicalInterview/bin/Debug/net7.0/UBSTechnicalInterview.runtimeconfig.json
+/Users/davidtasty/Projects/UBSTechnicalInterview/UBSTechnicalInterview/bin/Debug/net7.0/UBSTechnicalInterview.dll
+/Users/davidtasty/Projects/UBSTechnicalInterview/UBSTechnicalInterview/bin/Debug/net7.0/UBSTechnicalInterview.pdb
+/Users/davidtasty/Projects/UBSTechnicalInterview/UBSTechnicalInterview/obj/Debug/net7.0/UBSTechnicalInterview.csproj.AssemblyReference.cache
+/Users/davidtasty/Projects/UBSTechnicalInterview/UBSTechnicalInterview/obj/Debug/net7.0/UBSTechnicalInterview.GeneratedMSBuildEditorConfig.editorconfig
+/Users/davidtasty/Projects/UBSTechnicalInterview/UBSTechnicalInterview/obj/Debug/net7.0/UBSTechnicalInterview.AssemblyInfoInputs.cache
+/Users/davidtasty/Projects/UBSTechnicalInterview/UBSTechnicalInterview/obj/Debug/net7.0/UBSTechnicalInterview.AssemblyInfo.cs
+/Users/davidtasty/Projects/UBSTechnicalInterview/UBSTechnicalInterview/obj/Debug/net7.0/UBSTechnicalInterview.csproj.CoreCompileInputs.cache
+/Users/davidtasty/Projects/UBSTechnicalInterview/UBSTechnicalInterview/obj/Debug/net7.0/UBSTechnicalInterview.dll
+/Users/davidtasty/Projects/UBSTechnicalInterview/UBSTechnicalInterview/obj/Debug/net7.0/refint/UBSTechnicalInterview.dll
+/Users/davidtasty/Projects/UBSTechnicalInterview/UBSTechnicalInterview/obj/Debug/net7.0/UBSTechnicalInterview.pdb
+/Users/davidtasty/Projects/UBSTechnicalInterview/UBSTechnicalInterview/obj/Debug/net7.0/UBSTechnicalInterview.genruntimeconfig.cache
+/Users/davidtasty/Projects/UBSTechnicalInterview/UBSTechnicalInterview/obj/Debug/net7.0/ref/UBSTechnicalInterview.dll
