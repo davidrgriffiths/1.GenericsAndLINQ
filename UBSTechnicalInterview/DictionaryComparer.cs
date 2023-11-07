@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 namespace UBSTechnicalInterview
 {
@@ -6,10 +7,9 @@ namespace UBSTechnicalInterview
 	{
 		public DictionaryComparer() { }
 
-
-		public static bool Compare<T>(ref T dictionary1, ref T dictionary2)
-		{
-			// Test
+		public static bool Compare<T1,T2>(T1 dict1, T2 dict2)
+        {
+			return true;
 		}
 
 

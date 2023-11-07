@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{5556A28C-EA55-4C5F-B255-EBB8A83D1C47}|Default">
+  <MonoDevelop.Ide.ItemProperties.UBSTechnicalInterview PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="UnitTests/DictonaryComparerUnitTests.cs">
+    <Files>
+      <File FileName="UBSTechnicalInterview/Program.cs" Line="1" Column="1" />
+      <File FileName="UBSTechnicalInterview/DictionaryComparer.cs" />
+      <File FileName="UnitTests/Usings.cs" />
+      <File FileName="UnitTests/DictonaryComparerUnitTests.cs" Line="24" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UBSTechnicalInterview" expanded="True">
+            <Node name="UBSTechnicalInterview" expanded="True" />
+            <Node name="UnitTests" expanded="True">
+              <Node name="DictonaryComparerUnitTests.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
