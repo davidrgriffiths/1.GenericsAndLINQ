@@ -205,7 +205,7 @@ public class Tests
 
     #endregion
 
-    #region Compare Object Types (custom types implementing IEquatable interface)
+    #region Test Object Types (custom types implementing IEquatable interface)
 
     [Test]
     public void CompareIntObjectDictionariesWithSameContents()
@@ -306,7 +306,28 @@ public class Tests
         // Expect INequality
         bool isCorrectEqualityResult = !DictionaryComparer.CheckEquality<Dictionary
             <EquatableClass, EquatableClass>, Dictionary<EquatableClass, EquatableClass>>(d1, d2, out returnCode);
-        bool isCorrectReturnCode = returnCode == ReturnCodes.DifferentContents;
+        bool isCorrectReturnCode = returnCode == ReturnCodes.DifferentItemCounts;
+
+        Assert.IsTrue(isCorrectEqualityResult && isCorrectReturnCode, returnCode.ReturnMessage);
+    }
+
+    #endregion
+
+    #region Test Object Types (custom types NOT implementing IEquatable interface)
+
+    [Test]
+    public void CompareIntNonEquatableObjectDictionariesWithSameContents()
+    {
+        Dictionary<int, NonEquatableClass> d1 = new Dictionary<int, NonEquatableClass> {
+            { 1, new NonEquatableClass(1234, 1.23f, "Book", true) } };
+        Dictionary<int, NonEquatableClass> d2 = new Dictionary<int, NonEquatableClass> {
+            { 1, new NonEquatableClass(1234, 1.23f, "Book", true) } };
+        ReturnInfo returnCode;
+
+        // Expect INequality
+        bool isCorrectEqualityResult = !DictionaryComparer.CheckEquality
+            <Dictionary<int, NonEquatableClass>, Dictionary<int, NonEquatableClass>>(d1, d2, out returnCode);
+        bool isCorrectReturnCode = returnCode == ReturnCodes.NonEquitableClass;
 
         Assert.IsTrue(isCorrectEqualityResult && isCorrectReturnCode, returnCode.ReturnMessage);
     }

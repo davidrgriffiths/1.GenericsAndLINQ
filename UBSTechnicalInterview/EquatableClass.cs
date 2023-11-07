@@ -8,8 +8,7 @@ namespace UBSTechnicalInterview
         public string ItemDescription { get; init; }
         public bool IsInStock { get; init; }
 
-        public EquatableClass(int serialNumber, float price, string itemDescription,
-            bool isInStock)
+        public EquatableClass(int serialNumber, float price, string itemDescription, bool isInStock)
 		{
             SerialNumber = serialNumber;
             Price = price;

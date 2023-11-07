@@ -15,25 +15,26 @@ namespace UBSTechnicalInterview
             public static ReturnInfo DifferentDictionaryTypes { get { return new ReturnInfo(-2, "Different Dictionary Types"); } }
             public static ReturnInfo DifferentItemCounts { get { return new ReturnInfo(-3, "Different Item Counts"); } }
             public static ReturnInfo DifferentContents { get { return new ReturnInfo(-4, "Different Contents"); } }
+            public static ReturnInfo NonEquitableClass { get { return new ReturnInfo(-5, "Non-Equitable Object Type"); } }
         }
 
 		public static bool CheckEquality<T1, T2>(T1 dict1, T2 dict2, out ReturnInfo returnCode)
         {
-            // 1. Check whether either dictionary is null
+            // Check whether either dictionary is null
             if (dict1 == null || dict2 == null)
             {
                 returnCode = ReturnCodes.NullDictionary;
                 return false;
             }
 
-            // 2. Check whether dictionaries are the same instance
+            // Check whether dictionaries are the same instance
             if (dict1.Equals(dict2))
             {
                 returnCode = ReturnCodes.SameInstance;
                 return true;
             }
 
-            // 3. Check whether dictionary key and value types are the same
+            // Check whether dictionary key and value types are the same
             Type[] dict1KeyValueTypes = dict1.GetType().GetGenericArguments();
             Type[] dict2KeyValueTypes = dict2.GetType().GetGenericArguments();
 
@@ -43,12 +44,32 @@ namespace UBSTechnicalInterview
                 return false;
             }
 
-            // 4. Create concrete dictionary types for further processing
+            // Check whether key and value types are equitable
+            // i.e. are either built-in (System) classes OR implement IEquitable interface
+
+            //bool isKeyBuiltInType = dict1KeyValueTypes[0].Namespace == "System";
+            //bool isValueBuiltInType = dict1KeyValueTypes[1].Namespace == "System";
+
+            bool isKeyEquitable = dict1KeyValueTypes[0].GetInterfaces().Any(x =>
+                  x.IsGenericType &&
+                  x.GetGenericTypeDefinition() == typeof(IEquatable<>));
+
+            bool isValueEquitable = dict1KeyValueTypes[1].GetInterfaces().Any(x =>
+                  x.IsGenericType &&
+                  x.GetGenericTypeDefinition() == typeof(IEquatable<>));
+
+            if(!(isKeyEquitable && isValueEquitable))
+            {
+                returnCode = ReturnCodes.NonEquitableClass;
+                return false;
+            }
+
+            // Create concrete dictionary types for further processing
             Type dictType = typeof(Dictionary<,>).MakeGenericType(dict1KeyValueTypes);
             var concreteDict1 = Convert.ChangeType(dict1, dictType);
             var concreteDict2 = Convert.ChangeType(dict2, dictType);
 
-            // 5. Check whether dictionaries are the same size
+            // Check whether dictionaries are the same size
             int dict1Count = (int)concreteDict1.GetType().GetProperty("Count").GetValue(concreteDict1);
             int dict2Count = (int)concreteDict2.GetType().GetProperty("Count").GetValue(concreteDict2);
 
@@ -61,7 +82,7 @@ namespace UBSTechnicalInterview
             Type kvpType = typeof(KeyValuePair<,>).MakeGenericType(dict1KeyValueTypes);
             var kvp2Value = Int32.MinValue;
 
-            // 6. Check whether dictionaries have the same contents
+            // Check whether dictionaries have the same contents
             foreach (var kvp1 in (System.Collections.IEnumerable)concreteDict1)
             {
                 var concreteKvp1 = Convert.ChangeType(kvp1, kvpType);
