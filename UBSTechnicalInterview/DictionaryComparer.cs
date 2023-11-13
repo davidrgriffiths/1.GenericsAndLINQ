@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 
-namespace UBSTechnicalInterview
+namespace GenericsAndLINQ
 {
     public static class DictionaryComparer
 	{
@@ -18,7 +18,7 @@ namespace UBSTechnicalInterview
             public static ReturnInfo NonEquitableClass { get { return new ReturnInfo(-5, "Non-Equitable Object Type"); } }
         }
 
-		public static bool CheckEquality<T1, T2>(T1 dict1, T2 dict2, out ReturnInfo returnCode)
+        public static bool CheckEquality<T1, T2>(T1 dict1, T2 dict2, out ReturnInfo returnCode)
         {
             // Check whether either dictionary is null
             if (dict1 == null || dict2 == null)
@@ -46,10 +46,6 @@ namespace UBSTechnicalInterview
 
             // Check whether key and value types are equitable
             // i.e. are either built-in (System) classes OR implement IEquitable interface
-
-            //bool isKeyBuiltInType = dict1KeyValueTypes[0].Namespace == "System";
-            //bool isValueBuiltInType = dict1KeyValueTypes[1].Namespace == "System";
-
             bool isKeyEquitable = dict1KeyValueTypes[0].GetInterfaces().Any(x =>
                   x.IsGenericType &&
                   x.GetGenericTypeDefinition() == typeof(IEquatable<>));
@@ -103,35 +99,30 @@ namespace UBSTechnicalInterview
             return true;
         }
 
-
-        public static bool Compare(Dictionary<int, int> dictionary1, Dictionary<int, int> dictionary2)
-		{
-            bool dictionariesAreTheSame = true;
-
-			// Firstly, check to see if the dictionaries are the same instance
-
-			if (dictionary1.Equals(dictionary2))
-			{
-				return true;
-			}
-			else if(dictionary1.Count == dictionary2.Count)
-			{
-				return false;
+        public static bool CheckEquality(Dictionary<int, int> dictionary1, Dictionary<int, int> dictionary2)
+        {
+            if (dictionary1.Equals(dictionary2))
+            {
+                return true;
             }
-			else
-			{ 
-				foreach (KeyValuePair<int, int> kvp1 in dictionary1)
-				{
-					int kvp2Value = Int32.MinValue;
+            else if (dictionary1.Count != dictionary2.Count)
+            {
+                return false;
+            }
+            else
+            {
+                foreach (KeyValuePair<int, int> kvp1 in dictionary1)
+                {
+                    int kvp2Value = Int32.MinValue;
 
-					if (!dictionary2.TryGetValue(kvp1.Key, out kvp2Value) || kvp2Value != kvp1.Value)
-					{
-						return false;
-					}
-				}
-			}
+                    if (!dictionary2.TryGetValue(kvp1.Key, out kvp2Value) || kvp2Value != kvp1.Value)
+                    {
+                        return false;
+                    }
+                }
+            }
 
-			return true;
+            return true;
         }
-	}
+    }
 }

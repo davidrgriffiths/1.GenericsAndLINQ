@@ -6,10 +6,10 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="UnitTests/DictonaryComparerUnitTests.cs">
     <Files>
-      <File FileName="UBSTechnicalInterview/Program.cs" Line="1" Column="1" />
-      <File FileName="UBSTechnicalInterview/DictionaryComparer.cs" />
-      <File FileName="UnitTests/Usings.cs" />
-      <File FileName="UnitTests/DictonaryComparerUnitTests.cs" Line="24" Column="1" />
+      <File FileName="UBSTechnicalInterview/DictionaryComparer.cs" Line="59" Column="73" />
+      <File FileName="UnitTests/DictonaryComparerUnitTests.cs" Line="351" Column="6" />
+      <File FileName="UBSTechnicalInterview/EquatableClass.cs" Line="21" Column="31" />
+      <File FileName="UBSTechnicalInterview/NonEquitableClass.cs" Line="19" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,10 +17,26 @@
           <Node name="UBSTechnicalInterview" expanded="True">
             <Node name="UBSTechnicalInterview" expanded="True" />
             <Node name="UnitTests" expanded="True">
-              <Node name="DictonaryComparerUnitTests.cs" selected="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>dict1KeyValueTypes[1].GetInterfaces()[0].GetGenericTypeDefinition()</Value>
+          <Value>typeof(IEquatable&lt;&gt;)</Value>
+          <Value>dict1KeyValueTypes[1].GetInterfaces()[0].GetGenericTypeDefinition() == typeof(IEquatable&lt;&gt;)</Value>
+          <Value>dict1KeyValueTypes[1].GetInterfaces()[0].IsGenericType</Value>
+          <Value>typeof(IEquatable&lt;&gt;)</Value>
+          <Value>typeof(IEquatable&lt;&gt;)</Value>
+          <Value>dict1KeyValueTypes[0].GetInterfaces()</Value>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

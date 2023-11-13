@@ -1,9 +1,9 @@
-﻿using UBSTechnicalInterview;
-using static UBSTechnicalInterview.DictionaryComparer;
+﻿using GenericsAndLINQ;
+using static GenericsAndLINQ.DictionaryComparer;
 
 namespace UnitTests;
 
-public class Tests
+public class DictionaryComparerUnitTests
 {
     public record TestRecord(int param1, int param2);
 

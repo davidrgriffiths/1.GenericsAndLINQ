@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1706.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UBSTechnicalInterview", "UBSTechnicalInterview\UBSTechnicalInterview.csproj", "{5556A28C-EA55-4C5F-B255-EBB8A83D1C47}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsAndLINQ", "UBSTechnicalInterview\GenericsAndLINQ.csproj", "{5556A28C-EA55-4C5F-B255-EBB8A83D1C47}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{435D86C9-4DA9-425E-8AE4-2E1A463410CA}"
 EndProject

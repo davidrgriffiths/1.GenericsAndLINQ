@@ -8,11 +8,11 @@
     ".NETCoreApp,Version=v7.0": {
       "UnitTests/1.0.0": {
         "dependencies": {
+          "GenericsAndLINQ": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.5.0",
           "NUnit": "3.13.3",
           "NUnit.Analyzers": "3.6.1",
           "NUnit3TestAdapter": "4.4.2",
-          "UBSTechnicalInterview": "1.0.0",
           "coverlet.collector": "3.2.0"
         },
         "runtime": {
@@ -317,9 +317,9 @@
       "NUnit.Analyzers/3.6.1": {},
       "NUnit3TestAdapter/4.4.2": {},
       "System.Reflection.Metadata/1.6.0": {},
-      "UBSTechnicalInterview/1.0.0": {
+      "GenericsAndLINQ/1.0.0": {
         "runtime": {
-          "UBSTechnicalInterview.dll": {}
+          "GenericsAndLINQ.dll": {}
         }
       }
     }
@@ -421,7 +421,7 @@
       "path": "system.reflection.metadata/1.6.0",
       "hashPath": "system.reflection.metadata.1.6.0.nupkg.sha512"
     },
-    "UBSTechnicalInterview/1.0.0": {
+    "GenericsAndLINQ/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

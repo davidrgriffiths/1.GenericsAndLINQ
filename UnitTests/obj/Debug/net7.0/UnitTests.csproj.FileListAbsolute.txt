@@ -97,8 +97,8 @@
 /Users/davidwork/Projects/study/1.GenericsAndLINQ/UnitTests/obj/Debug/net7.0/UnitTests.genruntimeconfig.cache
 /Users/davidwork/Projects/study/1.GenericsAndLINQ/UnitTests/obj/Debug/net7.0/ref/UnitTests.dll
 /Users/davidwork/Projects/study/1.GenericsAndLINQ/UnitTests/bin/Debug/net7.0/CoverletSourceRootsMapping
-/Users/davidwork/Projects/study/1.GenericsAndLINQ/UnitTests/bin/Debug/net7.0/UBSTechnicalInterview.deps.json
-/Users/davidwork/Projects/study/1.GenericsAndLINQ/UnitTests/bin/Debug/net7.0/UBSTechnicalInterview.runtimeconfig.json
-/Users/davidwork/Projects/study/1.GenericsAndLINQ/UnitTests/bin/Debug/net7.0/UBSTechnicalInterview
-/Users/davidwork/Projects/study/1.GenericsAndLINQ/UnitTests/bin/Debug/net7.0/UBSTechnicalInterview.dll
-/Users/davidwork/Projects/study/1.GenericsAndLINQ/UnitTests/bin/Debug/net7.0/UBSTechnicalInterview.pdb
+/Users/davidwork/Projects/study/1.GenericsAndLINQ/UnitTests/bin/Debug/net7.0/GenericsAndLINQ.deps.json
+/Users/davidwork/Projects/study/1.GenericsAndLINQ/UnitTests/bin/Debug/net7.0/GenericsAndLINQ.runtimeconfig.json
+/Users/davidwork/Projects/study/1.GenericsAndLINQ/UnitTests/bin/Debug/net7.0/GenericsAndLINQ
+/Users/davidwork/Projects/study/1.GenericsAndLINQ/UnitTests/bin/Debug/net7.0/GenericsAndLINQ.dll
+/Users/davidwork/Projects/study/1.GenericsAndLINQ/UnitTests/bin/Debug/net7.0/GenericsAndLINQ.pdb

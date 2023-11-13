@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7gTSY1BGpGIQ1afJx5/s1Sjug1wC1QTtr9a3BVERsDcHvDrK+q3tX9OSeqH8NzOaJJlCzVPb064aPHm7lMJ9/w==",
+  "dgSpecHash": "1+ryg/YXQoarBkwJqwrVOjb+8fo99HCwub9filCR32lH/8Ds4t1i6U0z2pLFId1hh3kd87kKDahLsKkgfhXmxw==",
   "success": true,
   "projectFilePath": "/Users/davidwork/Projects/study/1.GenericsAndLINQ/UnitTests/UnitTests.csproj",
   "expectedPackageFiles": [

@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{5556A28C-EA55-4C5F-B255-EBB8A83D1C47}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UnitTests/DictonaryComparerUnitTests.cs">
+    <Files>
+      <File FileName="UBSTechnicalInterview/DictionaryComparer.cs" />
+      <File FileName="UnitTests/DictonaryComparerUnitTests.cs" Line="4" Column="21" />
+      <File FileName="UBSTechnicalInterview/EquatableClass.cs" />
+      <File FileName="UBSTechnicalInterview/NonEquitableClass.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="1.GenericsAndLINQ" expanded="True">
+            <Node name="GenericsAndLINQ" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.GenericsAndLINQ PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

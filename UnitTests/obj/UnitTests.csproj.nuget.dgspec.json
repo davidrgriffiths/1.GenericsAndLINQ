@@ -4,12 +4,12 @@
     "/Users/davidwork/Projects/study/1.GenericsAndLINQ/UnitTests/UnitTests.csproj": {}
   },
   "projects": {
-    "/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/UBSTechnicalInterview.csproj": {
+    "/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/GenericsAndLINQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/UBSTechnicalInterview.csproj",
-        "projectName": "UBSTechnicalInterview",
-        "projectPath": "/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/UBSTechnicalInterview.csproj",
+        "projectUniqueName": "/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/GenericsAndLINQ.csproj",
+        "projectName": "GenericsAndLINQ",
+        "projectPath": "/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/GenericsAndLINQ.csproj",
         "packagesPath": "/Users/davidwork/.nuget/packages/",
         "outputPath": "/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/obj/",
         "projectStyle": "PackageReference",
@@ -79,8 +79,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/UBSTechnicalInterview.csproj": {
-                "projectPath": "/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/UBSTechnicalInterview.csproj"
+              "/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/GenericsAndLINQ.csproj": {
+                "projectPath": "/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/GenericsAndLINQ.csproj"
               }
             }
           }

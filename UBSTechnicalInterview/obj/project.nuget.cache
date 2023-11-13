@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PHcg1+BOXAdcz9zsze7TBrj4dZtm6Ah8wbpt6014RxjrJ59Po+N6S8mt1Qj6Ov2hcFXOrpGvUlw9RAXbfslH9w==",
+  "dgSpecHash": "2G47HSXryqVt0GJaQvGLajbphyxHc/op/CrXy0HKgYM5wdHvAS40r9RTBM2IkTf0fLBpzkjXkOzKq0yVw7UBNA==",
   "success": true,
-  "projectFilePath": "/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/UBSTechnicalInterview.csproj",
+  "projectFilePath": "/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/GenericsAndLINQ.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

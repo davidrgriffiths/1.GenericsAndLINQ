@@ -1,5 +1,6 @@
 ﻿using System;
-namespace UBSTechnicalInterview
+
+namespace GenericsAndLINQ
 {
     public class NonEquatableClass
     {

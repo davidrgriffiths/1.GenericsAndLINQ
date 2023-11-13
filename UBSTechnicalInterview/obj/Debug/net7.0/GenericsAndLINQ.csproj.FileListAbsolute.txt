@@ -1,0 +1,15 @@
+/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/bin/Debug/net7.0/GenericsAndLINQ
+/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/bin/Debug/net7.0/GenericsAndLINQ.deps.json
+/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/bin/Debug/net7.0/GenericsAndLINQ.runtimeconfig.json
+/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/bin/Debug/net7.0/GenericsAndLINQ.dll
+/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/bin/Debug/net7.0/GenericsAndLINQ.pdb
+/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/obj/Debug/net7.0/GenericsAndLINQ.csproj.AssemblyReference.cache
+/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/obj/Debug/net7.0/GenericsAndLINQ.GeneratedMSBuildEditorConfig.editorconfig
+/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/obj/Debug/net7.0/GenericsAndLINQ.AssemblyInfoInputs.cache
+/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/obj/Debug/net7.0/GenericsAndLINQ.AssemblyInfo.cs
+/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/obj/Debug/net7.0/GenericsAndLINQ.csproj.CoreCompileInputs.cache
+/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/obj/Debug/net7.0/GenericsAndLINQ.dll
+/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/obj/Debug/net7.0/refint/GenericsAndLINQ.dll
+/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/obj/Debug/net7.0/GenericsAndLINQ.pdb
+/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/obj/Debug/net7.0/GenericsAndLINQ.genruntimeconfig.cache
+/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/obj/Debug/net7.0/ref/GenericsAndLINQ.dll

@@ -382,14 +382,14 @@
           }
         }
       },
-      "UBSTechnicalInterview/1.0.0": {
+      "GenericsAndLINQ/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/UBSTechnicalInterview.dll": {}
+          "bin/placeholder/GenericsAndLINQ.dll": {}
         },
         "runtime": {
-          "bin/placeholder/UBSTechnicalInterview.dll": {}
+          "bin/placeholder/GenericsAndLINQ.dll": {}
         }
       }
     }
@@ -986,19 +986,19 @@
         "version.txt"
       ]
     },
-    "UBSTechnicalInterview/1.0.0": {
+    "GenericsAndLINQ/1.0.0": {
       "type": "project",
-      "path": "../UBSTechnicalInterview/UBSTechnicalInterview.csproj",
-      "msbuildProject": "../UBSTechnicalInterview/UBSTechnicalInterview.csproj"
+      "path": "../UBSTechnicalInterview/GenericsAndLINQ.csproj",
+      "msbuildProject": "../UBSTechnicalInterview/GenericsAndLINQ.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "GenericsAndLINQ >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.6.1",
       "NUnit3TestAdapter >= 4.4.2",
-      "UBSTechnicalInterview >= 1.0.0",
       "coverlet.collector >= 3.2.0"
     ]
   },
@@ -1027,8 +1027,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/UBSTechnicalInterview.csproj": {
-              "projectPath": "/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/UBSTechnicalInterview.csproj"
+            "/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/GenericsAndLINQ.csproj": {
+              "projectPath": "/Users/davidwork/Projects/study/1.GenericsAndLINQ/UBSTechnicalInterview/GenericsAndLINQ.csproj"
             }
           }
         }
